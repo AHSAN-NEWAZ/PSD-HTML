@@ -1,0 +1,73 @@
+* common section css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+
+}
+img{
+    display:block;
+}
+section{
+
+
+}
+.container{
+    
+    width:1170px;
+    margin:auto;
+}
+ul li{
+    list-style-type:none;
+    color:black;
+    
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color:orange;
+    
+    
+    
+}
+
+.logo{
+    width:20%;
+    display:inline-block;
+    padding:10px 10px;
+
+}
+
+.menu{
+    width:75%;
+    display:inline-block;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    
+}
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    height:600px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+#banner .inner_container{
+    width:50%;
+}
+
